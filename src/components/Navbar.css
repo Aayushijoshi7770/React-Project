@@ -1,0 +1,93 @@
+
+#nav-menu
+{
+    background-color: rgb(21,28,57);
+    margin: 0;
+}
+#ehya{
+    color:white;
+    font-weight:900;
+    font-size:28px;
+    margin-left:8.5%;
+  
+    
+
+}
+#home{
+    color:white;
+   
+    font-size:15px; 
+}
+
+#navbarDropdown{
+    color:white;
+   
+    font-size:15px;
+}
+#navbarDropdown:hover{
+    color:blue;
+}
+#contact{
+    color:white;
+  
+    font-size:15px; 
+}
+#contact:hover{
+    color:blue;
+}
+#toggle{
+  background-color:white;
+}
+
+#login{
+    color:white;
+    font-size:15px;
+ margin-right:436px;
+  
+}
+
+#logout{
+    color:white;
+    margin-bottom:15px;
+    font-size:15px;
+    margin-top:5px;
+  
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+#login{
+    margin-right:0px;
+}
+   
+}
+#login:hover {
+   
+    color:blue;
+  }
+  #home:hover{
+      color:blue;
+  }
+  #change{
+      color:white;
+      font-size:15px;
+  }
+  #upload{
+    color:white;
+    font-size:15px; 
+  }
+  
+  @media only screen and (max-width: 900px) {
+  
+    #ehya{
+        font-size:20px;
+        margin-left:-24%;
+         }
+    
+       
+       
+
+
+    }

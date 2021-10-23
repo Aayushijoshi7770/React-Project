@@ -1,0 +1,42 @@
+
+#para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #36b37e;
+    margin: 0 0 24px;
+    margin-left:11.5%;
+    margin-top:4%;
+}
+#headingpara{
+    font-family: 'hk-grotesk-web', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    color: #183b56;
+    margin: 0 auto 24px;
+    max-width: 840px;
+    margin-left:11.5%;
+}
+#content{
+
+ margin-left:11.5%;
+ font-size: 18px;
+ line-height: 1.7;
+ color: #5a7184;
+ max-width: 840px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #headingpara{
+        font-size: 19px;
+  
+    }
+   #content{
+    font-size: 14px;
+    }
+}

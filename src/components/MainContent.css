@@ -1,0 +1,96 @@
+#main{
+    background-color:rgb(21,28,57);
+    color:white;
+
+}
+#header{
+    padding-top:19%;
+    font-size: 39px;
+    line-height: 1.24;
+    font-weight: 800;
+    margin-left:23.5%;
+   font-family:' hk-grotesk-web', sans-serif;
+}
+#padder{
+    font-size: 20px;
+    line-height: 1.75;
+    margin: 0 0 40px;
+    margin-left:23.5%;
+    margin-top:2%;
+}
+#one
+    {
+        font-size: 18px;
+        padding: 20px 28px;
+        font-weight: 700;
+        min-width: 217px;
+        margin-left:23%;
+           border-radius:8px;
+        background-color:rgb(22,101,218);
+    }
+#two{
+    
+        padding: 20px 28px;
+         font-size: 18px;
+        font-weight: 700;
+        min-width: 217px;
+        background-color:rgb(21,28,57);
+        border: 1px solid white;
+        margin-left:2%;
+        border-radius:10px;
+}
+
+#image1{
+    height: 490px;
+    width: 59%;
+    margin-left: 12%;
+    margin-top:8%;
+    position:relative;
+}
+#image2{
+    height:200px;
+    position:absolute;
+}
+
+@media only screen and (max-width: 900px) {
+    #header{
+       
+    font-size: 21px;
+    margin-left:13%;
+ 
+    }
+    #padder{
+   
+    margin-top: 3%;
+    font-size: 12px;
+    margin-left: 14%;
+ 
+ 
+    }
+    #image1{
+        height: 300px;
+    width: auto;
+    margin-left: 5%;
+    margin-top: 4%;
+    }
+
+    div.col-6{
+        width:100%;
+    }
+
+    div.col-5{
+        width:100%;
+    }
+    #one
+    {
+        font-size: 18px;
+        margin-left:15%;
+      
+    }
+#two{
+         margin-top:4%;
+         font-size: 18px;
+        margin-left:15%;
+   
+}
+}

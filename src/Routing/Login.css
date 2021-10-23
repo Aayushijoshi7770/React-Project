@@ -1,0 +1,53 @@
+#h1
+{
+    font-weight: bold;
+    font-size:25px;
+    text-align:center;
+    color:white;
+}
+#form{
+  
+    margin-top: 20px;
+   width:31%;
+    background-color:rgb(21,28,57);
+}
+#button1{
+    font-size:15px;
+    background-color:rgb(21,101,216);
+    text-align:center;
+}
+#button{
+    background-color:rgb(21,101,216);
+    font-size:15px;
+    text-align:center;
+}
+.form-group{
+    font-size:20px;
+    color:white;
+}
+.form-control{
+    font-size:15px;
+    width:85%;
+}
+#forgot{
+   background-color:rgb(21,101,216);
+   color:white;
+   font-size:15px;
+   text-align:center;
+}
+   
+
+    @media only screen and (max-width: 900px) {
+        #form{
+            margin-top: 20px;
+            width:83%;
+            margin-left:10%;
+          
+        
+        }
+        .form-control{
+            font-size:15px;
+            width:100%;
+        }
+    
+        }
